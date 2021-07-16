@@ -1,13 +1,14 @@
 
-.content{
-    flex-direction: row;
-}
+
 .mainNav{
     display: flex;
     flex-direction:row;
-    
+    width: 100%;
+    padding: 1rem;
+    overflow: auto;
 }
 .navItem{
-    margin-right: 1%;
+    margin: 0 1rem ;
+    padding: 0 1.5rem;
     border: 3px solid black;
 }
