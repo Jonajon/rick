@@ -1,19 +1,13 @@
 
 .content{
     flex-direction: row;
-   
 }
-
-nav.mainNav {
-    
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
+.mainNav{
+    display: flex;
+    flex-direction:row;
     
 }
- 
-nav.mainNav > .navItem {
-    
-    display: inline-block;
-    padding: 20px;
+.navItem{
+    margin-right: 1%;
+    border: 3px solid black;
 }
